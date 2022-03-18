@@ -17,7 +17,6 @@ app.get("/", (_, res) => res.json({ message: "⚡ Express + TypeScript Server!" 
 
 // Run server
 app.listen(port, () => {
-  // eslint-disable-next-line no-console
   console.log(`⚡ Server is running on port ${port}`);
 });
 

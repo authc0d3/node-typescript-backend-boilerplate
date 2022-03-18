@@ -21,8 +21,9 @@ module.exports = {
   plugins: ["@typescript-eslint", "prettier", "import"],
   rules: {
     "prettier/prettier": "error",
-    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-console": "off",
     "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "error",
     "import/order": [
       "error",
